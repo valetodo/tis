@@ -31,8 +31,8 @@
 			<div class="form-group">
 				<h3><strong>Inicie sesion por favor</strong></h3><br>
 				<input type="text" class="form-control" placeholder="nombre de usuario" name=""><br>
-				<input type="password" class="form-control" placeholder="contraseña" name=""><br>
-				<input type="button" class="btn btn-success" value="Ingresar" name="">
+				<input id= "password" type="password" class="form-control" placeholder="contraseña" name=""><br>
+				<input id= "button" type="button" class="btn btn-success" value="Ingresar" name="">
 			</div>
 		</form>
 	</div>
@@ -59,6 +59,5 @@
 
 		</div>
 	</div>
-
 </body>
 </html>

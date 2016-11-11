@@ -1,44 +1,8 @@
-* {
-	border: 0px;
-	padding: 0px;
-}
 
-body {
-	background-color: #F5F5F5; 
-}
-
-div.nt-menu-titulo {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #BDBDBD;
-	width: 100%;
-	height: 90px;
-}
-
-img {
-	margin-top: 0px;
-	margin-left: 50px;
-	width: 60px;
-}
-
-h3 {
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
-	color: #616161;
-}
-
-div.nt-menu-titulo div.row div.col-sm-4 p {
-	margin-top: 10px;
-	margin-left: 370px;
-}
-
-div.nt-menu-titulo div.row div.col-sm-4 input.btn {
-	margin-left: 410px;
-	width: 70px;
-}
 
 div.nt-menu-cuerpo {
-	margin-top: 120px;
-	width: 100%;
+	font-family: verdana, arial, helvetica, sans-serif;
+	margin-top: 8%;
 }
 
 div.nt-menu-cuerpo div.row {
@@ -49,71 +13,38 @@ div.nt-menu-cuerpo div.row {
 
 }
 
-div.nt-menu-cuerpo div.row div.col-sm-2 a {
-	text-decoration: none;
-}
-
 div.nt-menu-cuerpo div.row div.col-sm-2 a img {
 	margin: auto;
-	height: 160px;
-	width: 160px;
+	height: 150px;
+	width: 150px;
 }
 
 div.nt-menu-cuerpo div.row div.col-sm-2:hover {
-  background-color: #CFD8DC;
+  background-color: #C5CAE9;
   border-radius: 15px;
 }
-
+/*
+*/
 div.nt-menu-pie {
-	bottom: 0;
-	margin-left: 5px;
-	position: fixed;
-	margin-bottom: 6%;
+	margin-top: -200px;
+	margin-left: 20px;
+	border: 5px;
 }
 
 div.nt-menu-pie div.row ul li {
 	list-style: none;
-	float: left;
+	padding-bottom: 35px; 
 }
-
 div.nt-menu-pie div.row ul li a {
+	font-family: verdana, arial, helvetica, sans-serif;
 	text-decoration: none;
-	text-align: center;
+	font-size: 13px
 	width: 100px;
+	color: #EF5350;
 	display: block;
 }
 
 div.nt-menu-pie div.row ul li a i {
-	color: #1565C0;
-}
-
-div.nt-menu-pie div.row ul li a:hover {
-  background-color: #CFD8DC;
-  border-radius: 5px;
-}
-
-div.nt-menu-subpie {
-	background-color: #EEEEEE;
-	border-top: 1px solid #BDBDBD;
-	bottom: 0;
-	position: fixed;
-	width: 100%;
-	height: 12%;
-	text-align: center;
-}
-
-div.col-sm-4 h4 {
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #616161;
-}
-
-div.col-sm-4 a {
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #616161;
-}
-
-div.col-sm-4 p a {
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #616161;
+	color: #EF5350;
 }
 
