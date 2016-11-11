@@ -9,7 +9,7 @@
 				<a href=""><img class="img-circle img-responsive" src="styles/images/nombramiento.png">Nombramiento</a>
 			</div>
 			<div class="col-sm-2">
-				<a href=""><img class="img-circle img-responsive" src="styles/images/cursos.png">Seguimientos</a>
+				<a href=""><img class="img-circle img-responsive" src="styles/images/seguimiento.png">Seguimiento</a>
 			</div>
 			<div class="col-sm-2">
 				<a href=""><img class="img-circle img-responsive" src="styles/images/reportes.png">Reportes</a>
@@ -18,7 +18,7 @@
 				<a href=""><img class="img-circle img-responsive" src="styles/images/historicos.png">Historicos</a>
 			</div>
 			<div class="col-sm-2">
-				<a href=""><img class="img-circle img-responsive" src="styles/images/nombramiento.png">Catalogos</a>
+				<a href=""><img class="img-circle img-responsive" src="styles/images/catalogos.png">Catalogos</a>
 			</div>
 		</div>
 	</div>
