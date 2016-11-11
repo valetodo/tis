@@ -53,7 +53,7 @@
 
 			<div class="col-sm-4">
 				<h4>Desarrollado por NextSoft srl.</h4>
-				<p><a href="">www.nextsoft.com.bo</a></p>
+				<p><a href="">www.nextsoft.com.bo</a> </p>
 				<p><a href="">nextsoft@gamil.com</a></p>
 			</div>
 
