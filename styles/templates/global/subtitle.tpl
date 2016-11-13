@@ -31,7 +31,8 @@
 	
 div.nt-menu-subpie {
 	margin-top: 16%;
-	background-color: #3949AB;
+	background-image: url("styles/images/pie.png");
+	/*background-color: #3949AB;*/
 	border-top: 1px solid #BDBDBD;
 	bottom: 0;
 	position: fixed;
