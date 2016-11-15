@@ -1,5 +1,5 @@
-<div class="container nt-menu-subpie">
-		<div class="row navbar gere">
+<div class="container nt-menu-subpie site-footer">
+		<div class="row">
 
 			<div class="col-sm-4">
 					<a class=" navbar-left" href="">
@@ -7,6 +7,11 @@
 					</a>
 			</div>
 
+			<div class="col-sm-4">
+				<b>Copyright ©2016 - Nextsoft - Derechos Reservados</b><br>
+				<b>Desarrollado por</b> <a><u>NextSoft srl.</u></a><br>
+				<a href=""><u>nextsoft@gmail.com</u></a>
+			</div>
 			<div class="col-sm-4">
 				<b>Paginas Relacionas:</b>
 				<a href=""><u>UMSS</u></a>
@@ -18,11 +23,6 @@
 				<a href=""><u>dpto.inf.sis@cs.umss.edu.bo</u></a> 
 			</div>
 
-			<div class="col-sm-4">
-				<b>Copyright ©2016 - Nextsoft - Derechos Reservados</b><br>
-				<b>Desarrollado por</b> <a><u>NextSoft srl.</u></a><br>
-				<a href=""><u>nextsoft@gmail.com</u></a>
-			</div>
 
 		</div>
 </div>
@@ -30,14 +30,14 @@
 <style type="text/css">
 	
 div.nt-menu-subpie {
-	margin-top: 16%;
+	margin-top: 16.48%;
 	background-image: url("styles/images/pie.png");
+	background-size: cover;
 	/*background-color: #3949AB;*/
 	border-top: 1px solid #BDBDBD;
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	height: 60px;
 	text-align: center;
 
 }

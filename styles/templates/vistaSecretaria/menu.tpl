@@ -5,8 +5,19 @@
 
 	<div class="container nt-menu-cuerpo">
 		<div class="row navbar">
-			<div class="col-sm-2">
-				<a href=""><img class="img-circle img-responsive" src="styles/images/nombramiento.png">Nombramiento</a>
+			<div class="col-sm-2 dropdown">
+				<a href="" class="dropdown-toggle" data-toggle="dropdown"><img class="img-circle img-responsive" src="styles/images/nombramiento.png"  id="dropdownMenu1">Nombramiento</a>
+
+				<span class="caret"></span>
+				<ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="">seleccion 1</a></li>
+
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="">seleccion 2</a></li>
+
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="">seleccion 3</a></li>
+
+				</ul>
+
 			</div>
 			<div class="col-sm-2">
 				<a href=""><img class="img-circle img-responsive" src="styles/images/seguimiento.png">Seguimiento</a>
@@ -18,7 +29,7 @@
 				<a href=""><img class="img-circle img-responsive" src="styles/images/historicos.png">Historicos</a>
 			</div>
 			<div class="col-sm-2">
-				<a href=""><img class="img-circle img-responsive" src="styles/images/catalogos.png">Catalogos</a>
+				<a href=""><img class="img-circle img-responsive" src="styles/images/registros.png">Registros</a>
 			</div>
 		</div>
 	</div>

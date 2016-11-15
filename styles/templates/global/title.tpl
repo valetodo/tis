@@ -6,16 +6,18 @@
 			</div>
 
 			<div class="col-sm-4">
-				<h4 class="titulo"><strong>Sistema de Seguimiento y Nombramiento Docentes</strong></h4>
+				<h4 class="titulo"><strong>Sistema de Seguimiento y Nombramiento Docente</strong></h4>
 			</div>
 
 			<div class="col-sm-4">
+				<!--
 				<form class="navbar-form navbar-right">
 				<p style="color: white">administrador        
 					<i class="fa fa-user fa-2x" aria-hidden="true"></i>
 				</p>
 				<input type="button" class="btn btn-success" name="" value="salir">
 				</form>
+				-->
 			</div>
 
 		</div>
