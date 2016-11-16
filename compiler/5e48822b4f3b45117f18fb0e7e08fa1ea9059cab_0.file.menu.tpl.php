@@ -1,6 +1,35 @@
-{include 'global/header.tpl'}
+<?php /* Smarty version 3.1.27, created on 2016-11-16 00:43:13
+         compiled from "/opt/lampp/htdocs/tis/styles/templates/vistaSecretaria/menu.tpl" */ ?>
+<?php
+/*%%SmartyHeaderCode:1610954623582b9d910e82e5_40078825%%*/
+if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '5e48822b4f3b45117f18fb0e7e08fa1ea9059cab' => 
+    array (
+      0 => '/opt/lampp/htdocs/tis/styles/templates/vistaSecretaria/menu.tpl',
+      1 => 1479253390,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1610954623582b9d910e82e5_40078825',
+  'has_nocache_code' => false,
+  'version' => '3.1.27',
+  'unifunc' => 'content_582b9d912692f2_59039409',
+),false);
+/*/%%SmartyHeaderCode%%*/
+if ($_valid && !is_callable('content_582b9d912692f2_59039409')) {
+function content_582b9d912692f2_59039409 ($_smarty_tpl) {
 
-{include 'global/title.tpl'}
+$_smarty_tpl->properties['nocache_hash'] = '1610954623582b9d910e82e5_40078825';
+echo $_smarty_tpl->getSubTemplate ('global/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
+
+<?php echo $_smarty_tpl->getSubTemplate ('global/title.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
 
 
 	<div class="container nt-menu-cuerpo">
@@ -71,6 +100,13 @@
 		</div>
 	</div>
 
-{include 'global/subtitle.tpl'}
+<?php echo $_smarty_tpl->getSubTemplate ('global/subtitle.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
 
-{include 'global/footer.tpl'}
+
+<?php echo $_smarty_tpl->getSubTemplate ('global/footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
+<?php }
+}
+?>

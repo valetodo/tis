@@ -2,65 +2,33 @@
 
 {include 'global/title.tpl'}
 
-<div class="container">
-	<div class="container nt">
-		<button id="button" class="btn btn-success">Ingresar</button>
-	</div>
-	<div class="jumbotron text-center inicio">
-			<ul class="breadcrumb center-block">
-  				<li><a href="#">Inicio</a></li>
-  				<li><a href="#">Docentes</a></li>
-  				<li><a href="#">Informacion</a></li>
-			</ul>
 
-			<div class="container">
-			<p>Sistema web que permite la generación de formularios de seguimiento y solicitud de nombramiento de docentes que se realiza para su respectiva contratación y que es solicitada a cada carrera por la Dirección de Planificación Académica (DPA), requerido para los procesos administrativos de nombramiento del plantel docente, brindando ayuda a la secretaria encargada de procesar ambos formularios con el sistema</p>
-			</div>
-	</div>
+<div class="container-fluid nt-inicio">
+		<h1 class="nt-h1"><strong>Sistema de <br>Apoyo <br>Administrativo</strong></h1>
 
-	<div class="container cop">
-		<img class="img-circle img-responsive logo3 center-block" src="styles/images/logo3.png">
-	</div>
+		<p class="nt-p">Sistema para la generacion de formularios de <br>seguimiento
+		y solicitud de nombramiento de docentes.</p>
+
 </div>
-<script>
-	window.onload = function () {
-		document.getElementById('button').onclick = function () {
-			location.href = '?view=login';
-		}
-	} 
-</script>
-<style type="text/css">
-	div.nt button.btn {
-		float:right;
-	}
 
-	div.inicio {
-		margin-top: -20px;
-		border: 1px solid #9E9E9E;
-	}
-
-	div.inicio ul.breadcrumb {
-		margin-top: -30px;
-		width: 400px;
-		border: 1px solid #EF9A9A;
-		font-size: 20px;
-	}
-
-	img.logo3 {
-		width: 200px;
-		height: 200px;
-	}
-
-	div.cop {
-		margin-top: -10px;
-		border: 1px solid transparent;
-	}
-</style>
+<div class="container formulario">
+	<form class="form-group">
+		<div class="form-group">
+			<h3><strong>Inicie sesion por favor</strong></h3><br>
+			<input type="text" class="form-control" placeholder="nombre de usuario" name=""><br>
+			<input id= "password" type="password" class="form-control" placeholder="contraseña" name=""><br>
+			<input id= "button" type="button" class="btn btn-success" value="	Ingresar" name="">
+		</div>
+	</form>
+</div>
 
 <div class="container nt-menu-subpie site-footer">
 		<div class="row">
 
 			<div class="col-sm-4">
+					<a class=" navbar-left" href="?view=index">
+					<i class="fa fa-home fa-3x inicio" aria-hidden="true"></i>
+					</a>
 			</div>
 
 			<div class="col-sm-4">
@@ -113,5 +81,14 @@ div.col-sm-4 a {
 
 </style>
 
-
 {include 'global/footer.tpl'}
+
+<style type="text/css">
+	
+	div.formulario {
+		width: 400px;
+		border-radius: 5px;
+		border: 1px solid #9E9E9E;
+	}
+
+</style>e	

@@ -1,6 +1,35 @@
-{include 'global/header.tpl'}
+<?php /* Smarty version 3.1.27, created on 2016-11-16 00:22:00
+         compiled from "/opt/lampp/htdocs/tis/styles/templates/home/index.tpl" */ ?>
+<?php
+/*%%SmartyHeaderCode:242989785582b9898289d44_29254005%%*/
+if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '0c2b142c851d10c557d112aa0d028e00d8607d32' => 
+    array (
+      0 => '/opt/lampp/htdocs/tis/styles/templates/home/index.tpl',
+      1 => 1479252116,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '242989785582b9898289d44_29254005',
+  'has_nocache_code' => false,
+  'version' => '3.1.27',
+  'unifunc' => 'content_582b98985474e5_20898723',
+),false);
+/*/%%SmartyHeaderCode%%*/
+if ($_valid && !is_callable('content_582b98985474e5_20898723')) {
+function content_582b98985474e5_20898723 ($_smarty_tpl) {
 
-{include 'global/title.tpl'}
+$_smarty_tpl->properties['nocache_hash'] = '242989785582b9898289d44_29254005';
+echo $_smarty_tpl->getSubTemplate ('global/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
+
+<?php echo $_smarty_tpl->getSubTemplate ('global/title.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
 
 <div class="container">
 	<div class="container nt">
@@ -22,13 +51,15 @@
 		<img class="img-circle img-responsive logo3 center-block" src="styles/images/logo3.png">
 	</div>
 </div>
-<script>
+<?php echo '<script'; ?>
+>
 	window.onload = function () {
 		document.getElementById('button').onclick = function () {
 			location.href = '?view=login';
 		}
 	} 
-</script>
+<?php echo '</script'; ?>
+>
 <style type="text/css">
 	div.nt button.btn {
 		float:right;
@@ -114,4 +145,8 @@ div.col-sm-4 a {
 </style>
 
 
-{include 'global/footer.tpl'}
+<?php echo $_smarty_tpl->getSubTemplate ('global/footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+
+}
+}
+?>
