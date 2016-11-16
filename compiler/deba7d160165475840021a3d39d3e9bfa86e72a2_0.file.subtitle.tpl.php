@@ -1,3 +1,29 @@
+<?php /* Smarty version 3.1.27, created on 2016-11-16 00:04:13
+         compiled from "/opt/lampp/htdocs/tis/styles/templates/global/subtitle.tpl" */ ?>
+<?php
+/*%%SmartyHeaderCode:1709359177582b946ded7323_94398617%%*/
+if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'deba7d160165475840021a3d39d3e9bfa86e72a2' => 
+    array (
+      0 => '/opt/lampp/htdocs/tis/styles/templates/global/subtitle.tpl',
+      1 => 1479250965,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1709359177582b946ded7323_94398617',
+  'has_nocache_code' => false,
+  'version' => '3.1.27',
+  'unifunc' => 'content_582b946deed624_47207717',
+),false);
+/*/%%SmartyHeaderCode%%*/
+if ($_valid && !is_callable('content_582b946deed624_47207717')) {
+function content_582b946deed624_47207717 ($_smarty_tpl) {
+
+$_smarty_tpl->properties['nocache_hash'] = '1709359177582b946ded7323_94398617';
+?>
 <div class="container nt-menu-subpie site-footer">
 		<div class="row">
 
@@ -56,3 +82,6 @@ div.col-sm-4 a {
 }
 
 </style>
+<?php }
+}
+?>
